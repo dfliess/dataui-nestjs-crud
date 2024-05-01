@@ -1,10 +1,11 @@
 {
   "packages": ["packages/*"],
   "npmClient": "yarn",
-  "version": "5.3.4",
+  "version": "5.3.5",
   "command": {
     "publish": {
-      "message": "chore: release"
+      "message": "chore: release",
+      "registry": "https://gitlab.com/api/v4/projects/walt-hbr/api/packages/npm/"
     }
   }
 }
