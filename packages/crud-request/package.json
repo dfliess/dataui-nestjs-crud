@@ -1,7 +1,7 @@
 {
   "name": "@dataui/crud-request",
   "description": "NestJs CRUD for RESTful APIs - request query builder",
-  "version": "5.3.6",
+  "version": "5.3.7",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -48,8 +48,8 @@
     "build": "npx tsc -b"
   },
   "dependencies": {
-    "@dataui/crud-util": "^5.3.6",
+    "@dataui/crud-util": "^5.3.7",
     "qs": "^6.8.0"
   },
-  "gitHead": "198c091688dc45f49649ea8d041cc8756c49c9a2"
+  "gitHead": "370aa8246a7f9419743cd5c084d27070456d496e"
 }
