@@ -417,7 +417,8 @@ export class TypeOrmCrudService<T> extends CrudService<T, DeepPartial<T>> {
         this.entityColumnsHash[prop.propertyPath] = prop.databasePath;
         return prop.propertyPath;
       }
-      this.entityColumnsHash[prop.propertyName] = prop.databasePath;
+      this.entityColumnsHash[prop.propertyName] = prop.databaseName;
+      //this.entityColumnsHash[prop.propertyName] = prop.databasePath;
       return prop.propertyName;
     });
     this.entityPrimaryColumns = this.repo.metadata.columns
